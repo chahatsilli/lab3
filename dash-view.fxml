@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="444.0" prefWidth="497.0" spacing="20.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hrmanagement.dashcontroller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+        <children>
+            <Label fx:id="password" />
+         <Button onAction="#adminclick" layoutX="110.0" layoutY="28.0" mnemonicParsing="false" text="Admin" />
+         <Button onAction="#exitclick" layoutX="110.0" layoutY="88.0" mnemonicParsing="false" text="Exit" />
+         <Button onAction="#employeeclick" layoutX="260.0" layoutY="28.0" mnemonicParsing="false" text="Employee" />
+         <Button onAction="#logoutclick" layoutX="260.0" layoutY="88.0" mnemonicParsing="false" text="Logout" />
+        </children>
+    </AnchorPane>
+</VBox>
